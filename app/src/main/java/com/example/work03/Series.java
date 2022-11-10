@@ -86,7 +86,7 @@ public class Series extends AppCompatActivity implements AdapterView.OnItemClick
     public String[] getArray()
     {
         NumberFormat numFormat = new DecimalFormat();
-        numFormat = new DecimalFormat("0.#######E0");
+        numFormat = new DecimalFormat("0.###E0");
         String arr[] = new String[20];
         double num = 0, first = 0;
         String v;
